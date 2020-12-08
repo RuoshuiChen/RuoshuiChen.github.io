@@ -1,34 +1,79 @@
-*{
-    box-sizing: border-box
-}
 
 body{
-    font-size: 16px;
-    width: 80vw;
+    background-color:aliceblue;
+    padding: 0px;
     margin: 0 auto;
-    
 }
-main{
-    margin: 20px 0;
-    
+
+ul {
+    list-style: none;
 }
-html{
-    font-size: 62.5%;
-    
+
+section {
+    width: 100%;
+    height: 70vh;
+    background-image: url(backgroudcover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro {
+    position: absolute;
+    border: 3px solid #73AD21;
+    line-height: 20px;
+    padding: 10px;
+    Left: 45%;
+    top: 230px;
 }
 
 
-.header{
-    color:coral;
-    text-align: center;
-    background-color: antiquewhite;
-    padding: 2rem;
-    border: 0.5rem solid gray
+.name{
+    font-size: 40px;
+    font-style: italic
+}
+.des {
+    font-size: 20px;
 }
 
-hr{
-    width: auto;
-    border-style: dotted;
+.me{
+    height: 560px;
+    position:absolute;
+    left: 30%;
+    top: 80px;
+    bottom: 0px;
+    transform: translateX(-70%);
+    
+}
+.me2 {
+    height: 330px;
+    position:absolute;
+    right: 0;
+}
+
+.aboutText {
+    text-align: left;
+    width: 600px;
+    padding: 15px;
+    padding-left: 30px;
+}
+.selfintro{
+    width:600px;
+    padding:30px;
+    
+}
+
+.lmc{
+    width: 70%;
+    height: 330px;
+    background-color:azure;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    margin:-7% auto 20px auto;
+    position:relative;
+}
+
+.contact{
+    font-size: 20px;
 }
 
 .project{
@@ -41,6 +86,14 @@ hr{
     margin: 0 auto;
 }
 
+.about {
+    font-size: 30px;
+}
+
+.content {
+    font-size: 20px
+}
+
 
 a:hover{
     color:deeppink;
@@ -49,20 +102,25 @@ a:hover{
 
 
 nav{
-    text-align: center;
-    padding: 2rem;
-    
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding 0px 5%
+}
+nav ul{
+    display:flex;
+}
+nav ul li a{
+    margin: 30px;
+    font-family: myriad pro regular;
+    color:coral;
+    font-size: 20px;
+    font-weight:700;
 }
 
-aside{
-    width: 50%;
-    float: right;
-    padding: 0 2rem;
-    margin: 0 auto;
-    
-    
-}
 
 footer{
     background-color:deepskyblue
@@ -71,29 +129,9 @@ footer{
 a{
     text-decoration: none;
     margin: 0 2rem;
-    
-}
-.selfPhoto{
-   width: 50%;
-    margin: 0 auto;
-    border-radius: 1rem;
-    margin-bottom: 2rem;
-    box-shadow: 0 1rem 3rem black;
-    height: auto; 
-    float:left
-}
-.backgroudPho{
-    width: 60%;
-    margin: 0 auto;
-    border-radius: 1rem;
-    margin-bottom: 2rem;
-    box-shadow: 0 1rem 3rem black;
-    height: auto;
-    padding: ;
-    float:right
 }
 
 .drum{
-    width: 100%
+    width: 600px
 }
 
